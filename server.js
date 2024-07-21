@@ -3,7 +3,7 @@ const app = express();
 
 // Define a simple API endpoint
 app.get('/api/data', (req, res) => {
-    res.json({ message: 'Hello from bcguru.in!' });
+    res.json({ message: 'Hello from bcguru.in' });
 });
 
 // Set the port the app will listen on
